@@ -8,7 +8,7 @@ st.title("Welcome to the  Demo App")
 st.sidebar.header("User Input Parameters")
 x=st.sidebar.slider("User Input Data")
 y=st.sidebar.date_input("Enter a date")
-z=st.sidebar.text_input('Enter First Name:')
+z=st.sidebar.text_input('Enter First Name:',value='John')
 
 st.header("Move the slider in the sidebar to update below:")
 st.subheader(x)
