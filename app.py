@@ -10,14 +10,14 @@ x=st.sidebar.slider("User Input Data")
 y=st.sidebar.date_input("When is your birthday")
 z=st.sidebar.text_input('Enter First Name:')
 
-st.header("The data you entered by moving the slider on the left:")
-st.write(x)
+st.header("Slider data from the left:")
+st.subheader(x)
 
-st.header("Your Date of Birth")
-st.write(y)
+st.header("Date of Birth")
+st.subheader(y)
 
-st.header("The text you enetered in the input field in the side bar")
-st.write(z)
+st.header("The text from the input field in the side bar")
+st.subheader(z)
 
 
 chart_data = pd.DataFrame(
