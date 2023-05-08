@@ -10,10 +10,10 @@ x=st.sidebar.slider("User Input Data")
 y=st.sidebar.date_input("When is your birthday")
 z=st.sidebar.text_input('Enter First Name:')
 
-st.header("Slider data from the left:")
+st.header("Move the slider in the sidebar to update below:")
 st.subheader(x)
 
-st.header("Date of Birth")
+st.header("Enter your Date of Birth in the sidebar")
 st.subheader(y)
 
 st.header("The text from the input field in the side bar")
